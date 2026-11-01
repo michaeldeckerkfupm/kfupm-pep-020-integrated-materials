@@ -1,0 +1,9 @@
+.git
+.gitignore
+.assetsignore
+.openai
+.wrangler
+dist
+node_modules
+wrangler.jsonc
+README*
