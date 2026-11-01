@@ -6,6 +6,6 @@ Static HTML, CSS and JavaScript, with local audio and source-page images. Readin
 
 Open `index.html` to use the site. No build step is required.
 
-Listening feedback currently follows the supplied packet keys. L7.95 question 7 is excluded from scoring because the supplied key is blank.
+Listening feedback follows the supplied packet keys, with verified corrections for L7.95: question 7 is “loves them”; question 9 is “3 hours”. Earlier first-attempt scores retain their original total. Reading image views show only passages, including continuation pages.
 
 Cloudflare Workers Builds deploys main with `npx wrangler deploy`. The static asset configuration is in `wrangler.jsonc`.
